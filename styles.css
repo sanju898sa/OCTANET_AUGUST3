@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    text-align: right;
+}
+
+#profile_pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+#profile_pic:hover {
+    cursor: pointer;
+}
+
+#dropdown-menu {
+    position: relative;
+    top: -6px;
+    margin-right: 8px;
+}
+
+#google_logo {
+    width: 240px;
+    height: 140px;
+}
+
+.menu-item {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    margin-right: 16px;
+    position: relative;
+    top: -12px;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+    padding-top: 5%;
+}
+
+#search_box {
+    width: 100%;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    outline: none;
+}
+
+#search_box:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#search_box:focus {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#wrapper {
+    width: 582px;
+    position: relative;
+    display: inline-block
+}
+
+#voice_type {
+    width: 34px;
+    height: 26px;
+    position: absolute;
+    right: -11px;
+    top: 7px;
+
+}
+
+#voice_type:hover {
+    cursor: pointer;
+
+}
+
+.custom_btn {
+    background-color: #f2f2f2;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#buttons {
+    position: absolute;
+    top: 65px;
+    right: 150px;
+}
+
+.custom_btn:hover {
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+    cursor: pointer;
+}
+
+.custom_btn:first-of-type {
+    margin-right: 16px;
+}
+
+#app-dropdown {
+    width: 220px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 20px;
+    display: none;
+}
+
+.app-item {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+
+.app-item>img {
+    width: 40px;
+    height: 40px;
+}
+
+.app-item :hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+#menu-wrapper {
+    display: inline-block;
+}
+
+#menu-wrapper:hover #app-dropdown {
+    display: block;
+}
